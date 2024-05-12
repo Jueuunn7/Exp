@@ -33,7 +33,7 @@ async function getFailureCount(username) {
 }
 ```
 TOTP인증 제한회수를 확인해보면 `accounts[username].email`을 사용한다.
-
+<br><br>
 
 ```js
 app.get('/mypage', (req, res) => {
@@ -57,7 +57,8 @@ app.get('/mypage', (req, res) => {
 `/mypage`엔드포인트에서는 `account['email']`의 값을 수정할 수 있다.
 
 `TOTP`를 5회 시도하고 `email`을 바꾸는 방식으로 무작위 대입을 할 수 있다.    
-그래서
+
+## Exploit
 ```py
 import requests
 import random
