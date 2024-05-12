@@ -20,7 +20,7 @@ app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
 ```
-client에게 EJS렌더링에 대해 무제한 엑세스 권한을 부여해 취약점이 발생한다.
+client에게 EJS렌더링에 대해 무제한 엑세스 권한을 부여해 취약점이 발생한다.    
 https://github.com/mde/ejs/blob/main/SECURITY.md
 <br><br>
 
@@ -51,7 +51,7 @@ if (opts.outputFunctionName) {
   prepended += '  var ' + opts.outputFunctionName + ' = __append;' + '\n';
 }
 ```
-즉 `opts.outputFunctionName`을 덮어쓸수 있었다.    
+즉 `opts.outputFunctionName`을 덮어쓸수 있었다.       
 https://eslam.io/posts/ejs-server-side-template-injection-rce/
 
 ###  > ejs@3.1.6
